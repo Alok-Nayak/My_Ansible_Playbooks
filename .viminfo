@@ -12,7 +12,7 @@
 ~H
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1640292160,,"wq!"
+|2,0,1640295534,,"wq!"
 :q!
 |2,0,1640281641,,"q!"
 :q
@@ -50,20 +50,20 @@
 |3,1,36,0,1,0,1640281587,"\""
 
 # File marks:
-'0  38  22  ~/setup_tomcat.yml
-|4,48,38,22,1640292160,"~/setup_tomcat.yml"
+'0  1  17  ~/readme.txt
+|4,48,1,17,1640295534,"~/readme.txt"
 '1  38  22  ~/setup_tomcat.yml
-|4,49,38,22,1640292152,"~/setup_tomcat.yml"
-'2  35  16  ~/setup_tomcat.yml
-|4,50,35,16,1640291875,"~/setup_tomcat.yml"
+|4,49,38,22,1640292160,"~/setup_tomcat.yml"
+'2  38  22  ~/setup_tomcat.yml
+|4,50,38,22,1640292152,"~/setup_tomcat.yml"
 '3  35  16  ~/setup_tomcat.yml
 |4,51,35,16,1640291875,"~/setup_tomcat.yml"
 '4  35  16  ~/setup_tomcat.yml
 |4,52,35,16,1640291875,"~/setup_tomcat.yml"
 '5  35  16  ~/setup_tomcat.yml
 |4,53,35,16,1640291875,"~/setup_tomcat.yml"
-'6  26  44  ~/setup_tomcat.yml
-|4,54,26,44,1640291530,"~/setup_tomcat.yml"
+'6  35  16  ~/setup_tomcat.yml
+|4,54,35,16,1640291875,"~/setup_tomcat.yml"
 '7  26  44  ~/setup_tomcat.yml
 |4,55,26,44,1640291530,"~/setup_tomcat.yml"
 '8  26  44  ~/setup_tomcat.yml
@@ -72,14 +72,26 @@
 |4,57,26,44,1640291530,"~/setup_tomcat.yml"
 
 # Jumplist (newest first):
+-'  1  17  ~/readme.txt
+|4,39,1,17,1640295534,"~/readme.txt"
 -'  38  22  ~/setup_tomcat.yml
 |4,39,38,22,1640292160,"~/setup_tomcat.yml"
+-'  38  22  ~/setup_tomcat.yml
+|4,39,38,22,1640292160,"~/setup_tomcat.yml"
+-'  38  22  ~/setup_tomcat.yml
+|4,39,38,22,1640292152,"~/setup_tomcat.yml"
 -'  38  22  ~/setup_tomcat.yml
 |4,39,38,22,1640292152,"~/setup_tomcat.yml"
 -'  35  16  ~/setup_tomcat.yml
 |4,39,35,16,1640292123,"~/setup_tomcat.yml"
 -'  35  16  ~/setup_tomcat.yml
 |4,39,35,16,1640292123,"~/setup_tomcat.yml"
+-'  35  16  ~/setup_tomcat.yml
+|4,39,35,16,1640292123,"~/setup_tomcat.yml"
+-'  35  16  ~/setup_tomcat.yml
+|4,39,35,16,1640292123,"~/setup_tomcat.yml"
+-'  35  16  ~/setup_tomcat.yml
+|4,39,35,16,1640291875,"~/setup_tomcat.yml"
 -'  35  16  ~/setup_tomcat.yml
 |4,39,35,16,1640291875,"~/setup_tomcat.yml"
 -'  26  44  ~/setup_tomcat.yml
@@ -89,7 +101,17 @@
 -'  26  44  ~/setup_tomcat.yml
 |4,39,26,44,1640291669,"~/setup_tomcat.yml"
 -'  26  44  ~/setup_tomcat.yml
+|4,39,26,44,1640291669,"~/setup_tomcat.yml"
+-'  26  44  ~/setup_tomcat.yml
+|4,39,26,44,1640291669,"~/setup_tomcat.yml"
+-'  26  44  ~/setup_tomcat.yml
+|4,39,26,44,1640291669,"~/setup_tomcat.yml"
+-'  26  44  ~/setup_tomcat.yml
 |4,39,26,44,1640291530,"~/setup_tomcat.yml"
+-'  26  44  ~/setup_tomcat.yml
+|4,39,26,44,1640291530,"~/setup_tomcat.yml"
+-'  26  44  ~/setup_tomcat.yml
+|4,39,26,44,1640291137,"~/setup_tomcat.yml"
 -'  26  44  ~/setup_tomcat.yml
 |4,39,26,44,1640291137,"~/setup_tomcat.yml"
 -'  3  17  ~/setup_tomcat.yml
@@ -102,6 +124,18 @@
 |4,39,3,17,1640288892,"~/setup_tomcat.yml"
 -'  3  17  ~/setup_tomcat.yml
 |4,39,3,17,1640288892,"~/setup_tomcat.yml"
+-'  3  17  ~/setup_tomcat.yml
+|4,39,3,17,1640288892,"~/setup_tomcat.yml"
+-'  3  17  ~/setup_tomcat.yml
+|4,39,3,17,1640288892,"~/setup_tomcat.yml"
+-'  3  17  ~/setup_tomcat.yml
+|4,39,3,17,1640288892,"~/setup_tomcat.yml"
+-'  3  17  ~/setup_tomcat.yml
+|4,39,3,17,1640288892,"~/setup_tomcat.yml"
+-'  3  17  ~/setup_tomcat.yml
+|4,39,3,17,1640288892,"~/setup_tomcat.yml"
+-'  3  17  ~/setup_tomcat.yml
+|4,39,3,17,1640288831,"~/setup_tomcat.yml"
 -'  3  17  ~/setup_tomcat.yml
 |4,39,3,17,1640288831,"~/setup_tomcat.yml"
 -'  1  0  ~/setup_tomcat.yml
@@ -116,6 +150,18 @@
 |4,39,1,0,1640283100,"~/setup_tomcat.yml"
 -'  1  0  ~/setup_tomcat.yml
 |4,39,1,0,1640283100,"~/setup_tomcat.yml"
+-'  1  0  ~/setup_tomcat.yml
+|4,39,1,0,1640283100,"~/setup_tomcat.yml"
+-'  1  0  ~/setup_tomcat.yml
+|4,39,1,0,1640283100,"~/setup_tomcat.yml"
+-'  1  0  ~/setup_tomcat.yml
+|4,39,1,0,1640283100,"~/setup_tomcat.yml"
+-'  1  0  ~/setup_tomcat.yml
+|4,39,1,0,1640283100,"~/setup_tomcat.yml"
+-'  1  0  ~/setup_tomcat.yml
+|4,39,1,0,1640283100,"~/setup_tomcat.yml"
+-'  1  0  ~/setup_tomcat.yml
+|4,39,1,0,1640283100,"~/setup_tomcat.yml"
 -'  2  10  ~/user.yml
 |4,39,2,10,1640282961,"~/user.yml"
 -'  2  10  ~/user.yml
@@ -226,54 +272,15 @@
 |4,39,2,10,1640282961,"~/user.yml"
 -'  2  10  ~/user.yml
 |4,39,2,10,1640282961,"~/user.yml"
--'  2  10  ~/user.yml
-|4,39,2,10,1640282961,"~/user.yml"
--'  2  10  ~/user.yml
-|4,39,2,10,1640282961,"~/user.yml"
--'  2  10  ~/user.yml
-|4,39,2,10,1640282961,"~/user.yml"
--'  2  10  ~/user.yml
-|4,39,2,10,1640282961,"~/user.yml"
--'  2  10  ~/user.yml
-|4,39,2,10,1640282961,"~/user.yml"
--'  2  10  ~/user.yml
-|4,39,2,10,1640282961,"~/user.yml"
--'  2  10  ~/user.yml
-|4,39,2,10,1640282961,"~/user.yml"
--'  2  10  ~/user.yml
-|4,39,2,10,1640282961,"~/user.yml"
--'  2  10  ~/user.yml
-|4,39,2,10,1640282961,"~/user.yml"
--'  2  5  ~/user.yml
-|4,39,2,5,1640282890,"~/user.yml"
--'  2  5  ~/user.yml
-|4,39,2,5,1640282890,"~/user.yml"
--'  2  5  ~/user.yml
-|4,39,2,5,1640282890,"~/user.yml"
--'  2  5  ~/user.yml
-|4,39,2,5,1640282890,"~/user.yml"
--'  2  5  ~/user.yml
-|4,39,2,5,1640282890,"~/user.yml"
--'  2  5  ~/user.yml
-|4,39,2,5,1640282890,"~/user.yml"
--'  2  5  ~/user.yml
-|4,39,2,5,1640282890,"~/user.yml"
--'  2  5  ~/user.yml
-|4,39,2,5,1640282890,"~/user.yml"
--'  2  5  ~/user.yml
-|4,39,2,5,1640282890,"~/user.yml"
--'  2  5  ~/user.yml
-|4,39,2,5,1640282890,"~/user.yml"
--'  2  5  ~/user.yml
-|4,39,2,5,1640282890,"~/user.yml"
--'  2  5  ~/user.yml
-|4,39,2,5,1640282890,"~/user.yml"
--'  2  5  ~/user.yml
-|4,39,2,5,1640282890,"~/user.yml"
--'  2  5  ~/user.yml
-|4,39,2,5,1640282890,"~/user.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/readme.txt
+	*	1640295532	0
+	"	1	17
+	^	1	18
+	.	1	17
+	+	1	17
 
 > ~/setup_tomcat.yml
 	*	1640292158	0
@@ -545,10 +552,3 @@
 > ~/sdhfvhjd
 	*	1640093356	0
 	"	1	0
-
-> ~/hi
-	*	1640091317	0
-	"	1	4
-	^	1	5
-	.	1	5
-	+	1	5
