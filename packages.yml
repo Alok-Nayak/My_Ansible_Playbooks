@@ -1,0 +1,9 @@
+---
+- name: This Playbook Installs Tree Package
+  hosts: all
+  become: true
+  tasks:
+    - name: Installing Tree Package
+      yum:
+        name=tree
+        state=installed

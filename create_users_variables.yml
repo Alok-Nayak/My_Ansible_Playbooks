@@ -1,0 +1,13 @@
+---
+- name: this playbook creates a user
+  hosts: dbservers
+  become: true
+
+  vars:
+    user: sunny
+
+  tasks:
+    - name: creating a user "{{user}}"
+      user:
+        name: "{{user}}"
+

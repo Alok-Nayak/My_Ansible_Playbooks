@@ -1,0 +1,12 @@
+---
+- name: This Playbook Creates user mentioned in users.yml file
+  hosts: webservers
+  become: true
+
+  vars_files:
+    - user.yml
+
+  tasks:
+    - name: creating a user "{{user}}"
+      user:
+        name: "{{user}}"

@@ -1,0 +1,38 @@
+---
+- name: setup tomcat
+  hosts: dbservers
+  become: true
+
+  tasks:
+    - name: Installing Java on RedHat
+      yum:
+        name: java
+        state: installed
+      when: ansible_os_family == "RedHat"
+
+    - name: Installing Java on Ubuntu
+      apt:
+        name: default_jdk
+        state: present
+      when: ansible_os_family == "Debian"
+
+    - name: Downloading Tomcat
+      get_url:
+        url: https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.73/bin/apache-tomcat-8.5.73.tar.gz
+        dest: /opt
+
+    - name: Extract Tomcat Packg
+      unarchive:
+        src: /opt/apache-tomcat-8.5.73.tar.gz
+        dest: /opt
+        remote_src: yes
+
+    - name: Give Exec permission
+      file:
+        path: /opt/apache-tomcat-8.5.73/bin/startup.sh
+        mode: 0777
+
+    - name: Start Tomcat Service
+      shell: nohup ./startup.sh
+      args:
+        chdir: /opt/apache-tomcat-8.5.73/bin
